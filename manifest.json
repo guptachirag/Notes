@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+
+  "name": "Notes",
+  "description": "It is an extension to take smart notes while researching on world wide web and access them quickly whenever required.",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "notes.png",
+    "default_popup": "GoogleNotes.html"
+  }
+}
