@@ -1,4 +1,3 @@
-
 /**
  * Save content of the textarea to local storage as user fininshed typing
  */
@@ -17,6 +16,6 @@ document.addEventListener('DOMContentLoaded', function () {
         document.getElementById("notes").value = localStorage["notes"];
     }
     else {
-        document.getElementById("notes").value = "DELETE ME. ADD YOUR GOOGLE NOTES.";
+        document.getElementById("notes").value = "DELETE ME. ADD YOUR NOTES.";
     }
 });
